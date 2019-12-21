@@ -9,11 +9,9 @@ import Usercard from "./components/Usercard.vue"
 
 export default {
   name: 'app',
-  data () {
-    return {
+  components: {
       Usercard
-    }
-  }
+  },
 }
 </script>
 
